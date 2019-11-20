@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.p1{
+    text-align: justify;
+    margin-top: 40px;   
+}
+
+.container{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.teste{
+    width: 50%;
+    height: 200px;
+    background-color: blue;
+}
+
+.borda1{
+    /* border-color: #333322; /*Define a cor da borda
+    border-style: dashed; /*Define o estilo da borda
+    border-width: 1px; Define a largura da borda */
+    /* É obrigatório a inserção dos três atributos para funcionar a borda */
+    border: 5px dashed grey; /* Cria uma borda, com apenas uma linha de código*/
+    padding: 30px; /*Preenchimento*/
+}
+
+.borda2{
+    border: 5px dashed #f334f3; /* Cria uma borda, com apenas uma linha de código*/
+    /* margin: 80px; Margem de todos os lados */
+    margin-left: 80px;
+    /*Margem esquerda, porém, dá pra colocar margin-top (Cima), margin-right (Direita), margim-botton (Baixo)*/
+    padding: 20px;
+    /* margin: 0px 0px 0px 0px; 1º cima; 2º direita, 3º baixo, 4º esquerda */
+}
+
+a:link{
+    font-size: 150%;
+    text-decoration: none;
+    color: grey;
+}
+
+a:visited{
+    text-decoration: unset;
+    color: brown;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:active{
+    color: green;
+    text-decoration: none;
+    font-size: 300%;    
+}
+
+.border{
+border: 5px dashed blue;
+width: 250px;
+height: 300px;
+overflow: scroll; /*Cria a barra de rolagem nas div's*/
+visibility: hidden; /*Deixa oculto*/
+visibility: visible; /*Deixa visível*/
+}
+
+/* li{
+    display: inline; /*Transforma os elementos de blocos para linha
+    margin-left: 10px;
+} */
+
+.none{
+    display: none;
+}
+
+.border{
+    /* box-shadow: 10px 10px 10px 10px green; Sombra da Caixa */
+    border-radius: 30%;
+}
+
+.circulo{
+    /* box-shadow: 10px 10px 10px 10px green; Sombra da Caixa */
+    width: 20px;
+    height: 20px;
+    border-width: 10px;
+    border-color: red;
+    border-style: double;
+    border-radius: 50%;
+}
+
+ul{
+    list-style-type: disc;
+    list-style-type: square;
+    list-style-type: circle;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}

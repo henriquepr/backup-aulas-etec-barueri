@@ -1,0 +1,7 @@
+C:\Users\Henrique\Desktop\PA\Aula 04.09.2019 - Exercício 3\Aula 04.09.2019 - Exercício 3\bin\Debug\Aula 04.09.2019 - Exercício 3.exe.config
+C:\Users\Henrique\Desktop\PA\Aula 04.09.2019 - Exercício 3\Aula 04.09.2019 - Exercício 3\bin\Debug\Aula 04.09.2019 - Exercício 3.exe
+C:\Users\Henrique\Desktop\PA\Aula 04.09.2019 - Exercício 3\Aula 04.09.2019 - Exercício 3\bin\Debug\Aula 04.09.2019 - Exercício 3.pdb
+C:\Users\Henrique\Desktop\PA\Aula 04.09.2019 - Exercício 3\Aula 04.09.2019 - Exercício 3\obj\Debug\Aula 04.09.2019 - Exercício 3.csprojAssemblyReference.cache
+C:\Users\Henrique\Desktop\PA\Aula 04.09.2019 - Exercício 3\Aula 04.09.2019 - Exercício 3\obj\Debug\Aula 04.09.2019 - Exercício 3.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\Desktop\PA\Aula 04.09.2019 - Exercício 3\Aula 04.09.2019 - Exercício 3\obj\Debug\Aula 04.09.2019 - Exercício 3.exe
+C:\Users\Henrique\Desktop\PA\Aula 04.09.2019 - Exercício 3\Aula 04.09.2019 - Exercício 3\obj\Debug\Aula 04.09.2019 - Exercício 3.pdb

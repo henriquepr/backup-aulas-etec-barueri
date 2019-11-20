@@ -1,0 +1,10 @@
+C:\Users\Henrique\Desktop\Projeto Final PA\Projeto Final PA\bin\Debug\Projeto Final PA.exe.config
+C:\Users\Henrique\Desktop\Projeto Final PA\Projeto Final PA\bin\Debug\Projeto Final PA.exe
+C:\Users\Henrique\Desktop\Projeto Final PA\Projeto Final PA\bin\Debug\Projeto Final PA.pdb
+C:\Users\Henrique\Desktop\Projeto Final PA\Projeto Final PA\obj\Debug\Projeto Final PA.csprojAssemblyReference.cache
+C:\Users\Henrique\Desktop\Projeto Final PA\Projeto Final PA\obj\Debug\Projeto_Final_PA.Form1.resources
+C:\Users\Henrique\Desktop\Projeto Final PA\Projeto Final PA\obj\Debug\Projeto_Final_PA.Properties.Resources.resources
+C:\Users\Henrique\Desktop\Projeto Final PA\Projeto Final PA\obj\Debug\Projeto Final PA.csproj.GenerateResource.cache
+C:\Users\Henrique\Desktop\Projeto Final PA\Projeto Final PA\obj\Debug\Projeto Final PA.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\Desktop\Projeto Final PA\Projeto Final PA\obj\Debug\Projeto Final PA.exe
+C:\Users\Henrique\Desktop\Projeto Final PA\Projeto Final PA\obj\Debug\Projeto Final PA.pdb

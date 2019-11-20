@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // function MostrarMensagem(){
+        //     alert ("Olá");
+        // }
+
+        // function Somar(){
+        //     var num1, num2, resultado;
+        //     num1 = 40;
+        //     num2 = 10;
+        //     resultadosom = num1 + num2;
+        //     resultadosub = num1 - num2;
+        //     resultadomult = num1 * num2;
+        //     resultadodiv = num1 / num2;
+        //     alert("O resultado da soma é: " + resultadosom + "\nO resultado da subtração é: " + resultadosub + "\nO resultado da multiplicação é: " + resultadomult + "\nO resultado da divisão é: " + resultadodiv);
+        // }
+
+        // function obterUsuario(){
+        //     window.alert("Bem-vindo ao Javascript");
+        //     var nome, sobrenome;
+        //     nome = prompt ("Digite seu nome");
+        //     sobrenome = prompt ("Digite seu nome");
+        //     document.write("Boa noite: " + nome + " " + sobrenome + ". Seu corno FDP");
+        // }
+
+        function obterSoma(){ //Função
+            var nome = document.getElementById("nome").value;
+            var Snome = document.getElementById("Snome").value;
+            var valor1 = document.getElementById("valor1").value;
+            var valor2 = document.getElementById("valor2").value;
+            var result = document.getElementById("result");
+            result.value = parseFloat(valor1) + parseFloat(valor2);
+        }
+    </script>
+</head>
+<body>
+    <script>
+        // alert ("Olá Mundo"); - Mostra a mensagem no pop-up
+        // MostrarMensagem(); - Chamando a Função que está na <head>....</head>
+        // Somar(); //Puxa a função
+        // obterUsuario();
+    </script>
+    <div>
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome">
+    </div>
+
+    <br><br>
+
+    <div>
+        <label for="Snome">Sobrenome: </label>
+        <input type="text" name="Snome" id="Snome">
+    </div>
+
+    <br><br>
+
+    <div>
+        <label for="valor1">Valor 1: </label>
+        <input type="text" name="valor1" id="valor1">
+    </div>
+    <br><br>
+
+    <div>
+        <label for="valor2">Valor 2: </label>
+        <input type="text" name="valor2" id="valor2">
+    </div>
+
+    <br><br>
+
+    <div>
+        <label for="result">Resultado: </label>
+        <input type="text" name="result" id="result">
+    </div>
+
+    <br><br>
+
+    <input type="button" value="SOMAR" onclick="obterSoma();">
+</body>
+</html>

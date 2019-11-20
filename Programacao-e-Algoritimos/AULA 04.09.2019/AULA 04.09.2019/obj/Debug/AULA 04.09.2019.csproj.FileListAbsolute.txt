@@ -1,0 +1,7 @@
+C:\Users\Henrique\Desktop\PA\AULA 04.09.2019\AULA 04.09.2019\bin\Debug\AULA 04.09.2019.exe.config
+C:\Users\Henrique\Desktop\PA\AULA 04.09.2019\AULA 04.09.2019\bin\Debug\AULA 04.09.2019.exe
+C:\Users\Henrique\Desktop\PA\AULA 04.09.2019\AULA 04.09.2019\bin\Debug\AULA 04.09.2019.pdb
+C:\Users\Henrique\Desktop\PA\AULA 04.09.2019\AULA 04.09.2019\obj\Debug\AULA 04.09.2019.csprojAssemblyReference.cache
+C:\Users\Henrique\Desktop\PA\AULA 04.09.2019\AULA 04.09.2019\obj\Debug\AULA 04.09.2019.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\Desktop\PA\AULA 04.09.2019\AULA 04.09.2019\obj\Debug\AULA 04.09.2019.exe
+C:\Users\Henrique\Desktop\PA\AULA 04.09.2019\AULA 04.09.2019\obj\Debug\AULA 04.09.2019.pdb

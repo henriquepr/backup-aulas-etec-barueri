@@ -1,0 +1,111 @@
+body{
+    background-image: url(../img/background-site.jpg);
+    background-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.principal{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: #333333;
+    padding: 24px 0px 24px 0px;
+    background-image: linear-gradient(#ddd,#eee, #fff);
+}
+
+.header{
+    height: auto;
+    width: 750px;
+}
+
+.text{
+    display: inline-block;
+    width: 243px;
+    height: auto;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.title{
+    color: #0277a5;
+    font-weight: bold;
+}
+
+.text-content{
+    color: #444;
+    text-align: initial;
+}
+
+.more{
+    text-align: center;
+    margin: 0px 25px 0px auto;
+    padding: 10px;
+    background-image: linear-gradient(#0277a5, #003e57);
+    border-radius: 7px;
+    width: 70px;
+    color: white;
+}
+
+.more:hover{
+    background-image: linear-gradient(#003e57, #0277a5);
+}
+
+.footer{
+    width: 750px;
+    text-align: center;
+    margin: 15px auto 0px auto;
+    background-image: linear-gradient(#003e57, #0277a5);
+    border-radius: 0px 0px 10px 10px;
+}
+
+h2{
+    color: #fff;
+    font-weight: inherit;
+    margin: 0px;
+    padding: 13px 0px 7px 0px;
+}
+
+h3{
+    color: #fff;
+    margin-top: 0px;
+}
+
+
+.colaboradores{
+    width: 100%;
+}
+
+.colaborador{
+    display: inline-block;
+    margin-left: 17px;
+    margin-right: 10px;
+    text-align: center;
+    height: auto;
+}
+
+.avatar{
+    border-width: 8px;
+    border-color: #eee;
+    border-radius: 50%;
+    border-style: groove;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+.nome-colaborador{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.funcao{
+    margin-top: -10px;
+}

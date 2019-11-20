@@ -1,0 +1,22 @@
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    /*color: rgb(21, 111, 146);*/
+    opacity: 0.59;
+    text-transform: uppercase; /*Deixa todas as letras maísculas*/
+    /*text-transform: lowercase; /*Deixa todas as letras minusculas*/
+    /* text-transform: capitalize; /*Deixa a primeira letra maíscula*/
+    /*text-transform: none; /*Limpa todas as outras*/
+    /*text-decoration: underline; - Sublinha*/
+    /*text-decoration: line-through; - Linha no meio*/
+    /*text-decoration: overline; - Linha no meio*/
+    text-decoration: none; /*Limpa todas as outras*/
+    /*text-align: center;*/
+    /*text-align: justify;
+    text-align: left;
+    text-align: right; */
+}
+
+#teste{
+    color: rgb(21, 111, 146);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

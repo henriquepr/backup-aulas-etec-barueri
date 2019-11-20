@@ -1,0 +1,2 @@
+C:\Users\Henrique\Desktop\PA\Aula 04.09.2019 - Exercício 2\Aula 04.09.2019 - Exercício 2\obj\Debug\Aula 04.09.2019 - Exercício 2.csprojAssemblyReference.cache
+C:\Users\Henrique\Desktop\PA\Aula 04.09.2019 - Exercício 2\Aula 04.09.2019 - Exercício 2\obj\Debug\Aula 04.09.2019 - Exercício 2.csproj.CoreCompileInputs.cache

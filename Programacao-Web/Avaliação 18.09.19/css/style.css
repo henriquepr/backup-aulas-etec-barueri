@@ -1,0 +1,129 @@
+body{
+    background-image: url(../img/background-site.jpg);
+    background-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1{
+    color: #0277a5;
+}
+
+.main{
+    width: 950px;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    padding-top: 20px;
+}
+
+.caixa-form{
+    width: 500px;
+    background-color: #24aef3;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 0px 0px 60px -30px #000000;
+    fill-opacity: inherit;
+    background-image: url(../img/background-caixa.png);
+    margin-top: 5%;
+}
+
+#usuario{
+    background-image: url(../img/icon-usuario.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    padding-left: 35px;
+    display: block;
+    margin: auto;
+}
+
+#senha{
+    background-image: url(../img/icon-senha.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    padding-left: 35px;
+    padding-top: 13px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-position-y: 2px;
+    
+}
+
+.campo{
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    width: 300px;
+    background-color: #eeeeee;
+}
+
+.campo:focus{
+    box-shadow: 0px 0px 20px -5px black;
+    border: none;
+}
+
+.enviar{
+    padding: 10px 140px 10px 140px;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: none;
+    color: #0277a5;
+}
+
+.enviar:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+.blocos{
+    padding: 15px;
+}
+
+.blocos:hover{
+    cursor: pointer;
+}
+
+.bloco-social{
+    background-image: url(../img/botao-social.png);
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 45px;
+    display: inline-flex;
+}
+
+.bloco-social:hover{
+    background-image: url(../img/botao-social-hover.png);
+}
+
+.bloco-midia{
+    background-image: url(../img/botao-midia.png);
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 45px;
+    display: inline-flex;
+}
+
+.bloco-midia:hover{
+    background-image: url(../img/botao-midia-hover.png);
+}
+
+.bloco-links{
+    background-image: url(../img/botao-links.png);
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 45px;
+    display: inline-flex;
+}
+
+.bloco-links:hover{
+    background-image: url(../img/botao-links-hover.png);
+}

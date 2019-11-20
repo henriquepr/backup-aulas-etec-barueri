@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AULA BOOTSTRAP</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        .fundo{
+            width: 100%;
+            height: 100%;
+        }
+        .distancia{
+            padding-bottom : 20%;
+        }
+        .distancia2{
+            padding-bottom : 10%;
+        }
+        .distancia3{
+            padding-bottom: 5%;
+        }
+        .icones{
+            width : 128px;
+            height : 128px;
+        }
+        .imgPromo{
+            width : 100%; 
+            height : 600px; 
+        }
+        .imgPromoSmall{
+            width : 100%; 
+            height : 300px; 
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="apresentacao.html">Apresentação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quem-somos.html">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cadastro.html">Cadastre-se</a>
+                </li>
+                    
+            </ul>
+            <span class="navbar-text font-weight-bold">$ NOME DO USUÁRIO $</span>
+        </div>
+    </nav>
+
+    <header class="">
+        <div>
+            <div class="carousel-item active">
+                <img src="imagens/background.jpg" alt="Aperto de mão" class="d-block fundo">
+                <div class="carousel-caption text-light d-none d-xl-block" style="margin: 0;">
+                    <h1 class="display-1 font-weight-bold">BEM-VINDO</h1>
+                    <h3 class="display-3 distancia">A maior loja de artigos esportivos do Brasil</h3>
+                </div>
+                <div class=" carousel-caption text-light d-none d-xl-none d-lg-block">
+                    <h1 class="display-2 font-weight-bold">BEM-VINDO</h1>
+                    <h3 class="display-4 distancia2" style="margin-bottom: 13%;">A maior loja de artigos esportivos do Brasil</h3>
+                </div>
+                <div class="carousel-caption text-light d-lg-none distancia3">
+                    <h2 class="">BEM-VINDO</h2>
+                    <h4 class="lead" style="margin-bottom: 13%;">A maior loja de artigos esportivos do Brasil</h4>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+C:\Users\Henrique\Desktop\30.09.19\Teste Do While\Teste Do While\bin\Debug\Teste Do While.exe.config
+C:\Users\Henrique\Desktop\30.09.19\Teste Do While\Teste Do While\bin\Debug\Teste Do While.exe
+C:\Users\Henrique\Desktop\30.09.19\Teste Do While\Teste Do While\bin\Debug\Teste Do While.pdb
+C:\Users\Henrique\Desktop\30.09.19\Teste Do While\Teste Do While\obj\Debug\Teste Do While.csprojAssemblyReference.cache
+C:\Users\Henrique\Desktop\30.09.19\Teste Do While\Teste Do While\obj\Debug\Teste Do While.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\Desktop\30.09.19\Teste Do While\Teste Do While\obj\Debug\Teste Do While.exe
+C:\Users\Henrique\Desktop\30.09.19\Teste Do While\Teste Do While\obj\Debug\Teste Do While.pdb

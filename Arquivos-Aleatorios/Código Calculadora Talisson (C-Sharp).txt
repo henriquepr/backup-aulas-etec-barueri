@@ -1,0 +1,251 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace AtivCalcVisual_forms_
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+        double n1, n2 = 0, result = 0;
+        bool flag = false, flag1 = false, flag2 = false, flag3 = false;
+        char operador;
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            if (Linha1.Text == "") // caso a linha esteja vazia da erro
+            {
+                MessageBox.Show("Digite um valor primeiro");
+            }
+            else
+            {
+                if (flag1 == true)
+                {
+                    n2 = double.Parse(Linha2.Text);
+                }
+                if (flag1 == false)
+                {
+                    n1 = double.Parse(Linha2.Text);
+                    flag1 = true;
+                }
+                if (flag3 == true)
+                { result = result * n2; }
+                if (flag2 == false)
+                {
+                    if (n2 != 0)
+                    {
+                        result = n1 * n2;
+                        flag2 = true;
+                        flag3 = true;
+                    }
+                }
+                Linha1.Text += "*";
+                Linha2.Text = "";
+                operador = '*';
+            }
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            if (Linha1.Text == "") // caso a linha esteja vazia da erro
+            {
+                MessageBox.Show("Digite um valor primeiro");
+            }
+            else
+            {
+                if (flag1 == true)
+                {
+                    n2 = double.Parse(Linha2.Text);
+                }
+                if (flag1 == false)
+                {
+                    n1 = double.Parse(Linha2.Text);
+                    flag1 = true;
+                }
+                if (flag3 == true)
+                { result = result / n2; }
+                if (flag2 == false)
+                {
+                    if (n2 != 0)
+                    {
+                        result = n1 / n2;
+                        flag2 = true;
+                        flag3 = true;
+                    }
+                }
+                Linha1.Text += "/";
+                Linha2.Text = "";
+                operador = '/';
+            }
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            if (Linha2.Text == "")
+            {
+                Linha2.Text = "-";
+                Linha1.Text += "-";
+            }
+            else
+            {
+                if (flag1 == true)
+                {
+                    n2 = double.Parse(Linha2.Text);
+                }
+                if (flag1 == false)
+                {
+                    n1 = double.Parse(Linha2.Text);
+                    flag1 = true;
+                }
+                if (flag3 == true)
+                { result = result - n2; }
+                if (flag2 == false)
+                {
+                    if (n2 != 0)
+                    {
+                        result = n1 - n2;
+                        flag2 = true;
+                        flag3 = true;
+                    }
+                }
+                Linha1.Text += "-";
+                Linha2.Text = "";
+                operador = '-';
+            }
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            if (Linha1.Text == "") // caso a linha esteja vazia da erro
+            {
+                MessageBox.Show("Digite um valor primeiro");
+            }
+            else {
+                n1 += double.Parse(Linha2.Text);
+                Linha1.Text += "+";
+                Linha2.Text = "";
+                operador = '+';
+            }
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            if (Linha1.Text == "") // caso a linha esteja vazia da erro
+            {
+                MessageBox.Show("Digite um valor primeiro");
+            }
+            else
+            {
+                flag = true;
+                n2 = double.Parse(Linha2.Text);
+                Linha2.Text = "";
+                switch (operador)
+                {
+                    case '*':
+                        if (result == 0)
+                        { result = n1 * n2; }
+                        else
+                        { result = result * n2; }
+                        break;
+                    case '/':
+                        if (n2 != 0)
+                        {
+                            if (result == 0)
+                            { result = n1 / n2; }
+                            else
+                            { result = result / n2; }
+                        }
+                        else { MessageBox.Show("Erro"); }
+                        break;
+                    case '+':
+                        result = n1 + n2;
+                        break;
+                    case '-':
+                        if (result == 0)
+                        { result = n1 - n2; }
+                        else
+                        { result = result - n2; }
+                        break;
+                }
+                Linha1.Text = Convert.ToString(result);
+                Linha2.Text = Convert.ToString(result);
+                n1 = 0; n2 = 0;
+                flag1 = false; flag2 = false; flag3 = false;
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            if (Linha1.Text.Length > 0)
+            {
+                Linha1.Text = Linha1.Text.Substring(0, Linha1.Text.Length - 1);
+                if (Linha2.Text.Length > 0)
+                    // Remove o ultimo caracter do texto da textbox                    
+                    Linha2.Text = Linha2.Text.Substring(0, Linha2.Text.Length - 1);
+            }
+            /*
+              
+              try // tente
+              {
+              Linha1.Text = Linha1.Text.Substring(0, Linha1.Text.Length - 1);
+              Linha2.Text = Linha2.Text.Substring(0, Linha2.Text.Length - 1);
+              }
+              catch // caso aja excessão
+              {
+              MessageBox.Show("A linha ja está vazia");
+              }
+
+            */
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (Linha1.Text == "") // caso a linha esteja vazia da erro
+            {
+                MessageBox.Show("Digite um valor primeiro");
+            }
+            else
+            {
+                double a;
+                a = Convert.ToDouble(Linha2.Text) / 100;
+                Linha1.Text = Convert.ToString(a);
+                Linha2.Text = Convert.ToString(a);
+            }
+        }
+
+        private void btnNumerador_Click(object sender, EventArgs e)
+        {
+            Button bt = (Button)sender;
+
+            if (flag == true)
+            {
+                Linha2.Text = "";
+                Linha1.Text += bt.Text;
+                Linha2.Text += bt.Text;
+                flag = false;
+            }
+            else
+            {
+                Linha1.Text += bt.Text;
+                Linha2.Text += bt.Text;
+            }
+        }
+
+        private void btC_Click(object sender, EventArgs e)
+        {
+            Linha1.Text = "";
+            Linha2.Text = "";
+            result = 0; n1 = 0; n2 = 0;
+            flag = false; flag1 = false; flag2 = false; flag3 = false;
+        }
+    }
+}
